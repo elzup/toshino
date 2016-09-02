@@ -1,0 +1,27 @@
+{
+  "name": "toshino",
+  "version": "0.1.0",
+  "description": "Kyoko Kyoko Toshino.",
+  "license": "MIT",
+  "repository": "elzup/toshino",
+  "author": {
+    "name": "elzup",
+    "email": "guild0105@gmail.com",
+    "url": "elzup.com"
+  },
+  "bin": {
+    "toshino": "cat toshino.out"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "toshino.out"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "toshino",
+    "aa"
+  ]
+}
