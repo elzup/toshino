@@ -10,12 +10,13 @@
     "url": "elzup.com"
   },
   "bin": {
-    "toshino": "cat toshino.out"
+    "toshino": "print_toshino.sh"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "files": [
+    "print_toshino.sh",
     "toshino.out"
   ],
   "keywords": [
