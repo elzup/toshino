@@ -1,6 +1,6 @@
 {
   "name": "toshino",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Kyoko Kyoko Toshino.",
   "license": "MIT",
   "repository": "elzup/toshino",
@@ -15,6 +15,14 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "files": ["print_toshino.sh", "toshino.out"],
-  "keywords": ["cli-app", "cli", "toshino", "aa"]
+  "files": [
+    "toshino.out",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "toshino",
+    "aa"
+  ]
 }
