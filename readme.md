@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ npm install --save toshino
+$ npm install --global toshino
 ```
 
 
