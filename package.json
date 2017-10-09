@@ -10,7 +10,7 @@
     "url": "elzup.com"
   },
   "bin": {
-    "toshino": "print_toshino.sh"
+    "toshino": "cli.js"
   },
   "engines": {
     "node": ">=0.10.0"
