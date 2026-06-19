@@ -1,4 +1,4 @@
-# toshino [![Build Status](https://travis-ci.org/elzup/toshino.svg?branch=master)](https://travis-ci.org/elzup/toshino)
+# toshino
 
 > Printing cute toshino
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ npm install --global toshino
+$ npx toshino
 ```
 
 

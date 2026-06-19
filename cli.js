@@ -2,7 +2,7 @@
 'use strict'
 
 const fs = require('fs')
-const toshino = __dirname + '/toshino.out'
-const data = fs.readFileSync(toshino, 'utf-8')
+const zlib = require('zlib')
 
-console.log(data)
+const blob = fs.readFileSync(__dirname + '/toshino.br')
+process.stdout.write(zlib.brotliDecompressSync(blob))
