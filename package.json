@@ -3,7 +3,10 @@
   "version": "1.1.0",
   "description": "Kyoko Kyoko Toshino.",
   "license": "MIT",
-  "repository": "elzup/toshino",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elzup/toshino.git"
+  },
   "author": {
     "name": "elzup",
     "email": "guild0105@gmail.com",
