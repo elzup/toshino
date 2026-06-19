@@ -22,16 +22,6 @@ jobs:
       # Trusted Publishing needs npm >= 11.5.1 (Node 24 may ship an older one).
       - run: npm install -g npm@latest
       - run: npm ci || npm install
-      - name: Diagnose OIDC env
-        run: |
-          echo "node=$(node -v) npm=$(npm -v)"
-          if [ -n "${ACTIONS_ID_TOKEN_REQUEST_URL:-}" ]; then
-            echo "OIDC request URL: PRESENT"
-          else
-            echo "OIDC request URL: MISSING (id-token permission not effective)"
-          fi
-          echo "--- effective npmrc ---"
-          npm config ls -l 2>/dev/null | grep -iE 'registry|always-auth|//registry' || true
       # No NODE_AUTH_TOKEN secret: setup-node@v6 + OIDC exchange a short-lived
       # token automatically, and provenance is attached by default.
-      - run: npm publish --loglevel verbose
+      - run: npm publish
